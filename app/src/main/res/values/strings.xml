@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">UglyUserInterface</string>
+    <string name="long_description">Here we do long action in background…</string>
+    <string name="long_mock">Is im really working?</string>
+    <string name="long_mock2">Or just freeze?</string>
+    <string name="long_mock3">May be i must throw an exception and die?</string>
+</resources>
