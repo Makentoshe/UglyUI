@@ -24,12 +24,13 @@
                 android:id="@+id/action2"
                 android:layout_width="wrap_content"
                 android:layout_height="50dp"
-                android:text="Action 2"/>
+                android:text="Hide"/>
 
         <Button
+                android:id="@+id/action3"
                 android:layout_width="wrap_content"
                 android:layout_height="50dp"
-                android:text="Action 3"/>
+                android:text="Start loading"/>
 
         <Button
                 android:layout_width="wrap_content"
@@ -55,7 +56,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:numColumns="3"
-            android:gravity="center"
             android:verticalSpacing="10dp"
     >
 

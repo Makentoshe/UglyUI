@@ -1,6 +1,7 @@
 package com.makentoshe.uglyuserinterface
 
 import android.content.Context
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.view.ViewGroup
@@ -29,6 +30,10 @@ class MainActivity : AppCompatActivity() {
 
         findViewById<GridView>(R.id.gridview).apply {
             adapter = CustomGridViewAdapter((0 until 12).toList())
+        }
+
+        findViewById<View>(R.id.action3).setOnClickListener {
+            startActivity(Intent(this, LoadActivity::class.java))
         }
     }
 
